@@ -1,10 +1,12 @@
 CodeBook
 ===================
 In the following code book:
-mean(): Mean value
-std(): Standard deviation
-X,Y and Z refer to 3 spacial axes.
-Variables are as defined in [feautres information](features_info.txt).
+ * mean(): Mean value
+ * std(): Standard deviation
+ * X,Y and Z refer to 3 spacial axes.
+ * Variables are defined as in [feautres information](features_info.txt).
+
+## List of variables in tidy_data
 
  * Subject : subject's number 
   * 1~30

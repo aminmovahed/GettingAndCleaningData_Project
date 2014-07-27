@@ -4,7 +4,7 @@ In the following code book:
 mean(): Mean value
 std(): Standard deviation
 X,Y and Z refer to 3 spacial axes.
-Variables are as defined in [feautres information](eatures_info.txt).
+Variables are as defined in [feautres information](features_info.txt).
 
  * Subject : subject's number 
   * 1~30

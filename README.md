@@ -1,5 +1,17 @@
 Getting and Cleaning Data Project
 ===================
+run_analysis.R generates a tidy data set extracted from following data sets:
+X_test,
+y_test,
+subject_test,
+X_train,
+y_train,
+subject_train,
+features,
+activity_labels.
+
+In general, the script combines X_test, y_test and subject_test sets together to give test set and the same happens to train sets. Then, test and train sets are merged together and columns are labeled based on the elements in feature set. The acitvity elements of the resuting set are replaced with related elements in activity_labels set. Then, columns with features including mean and standard deviation are kept and the rest of the columns are removed. The result set is reshaped and manipulated to give average of each feature pertaining to each subject and each activity. The variables of the final data set is explained in [CodeBook.md](CodeBook.md).
+
 The following explains the script code of run_analysis.R:
 
 ```r

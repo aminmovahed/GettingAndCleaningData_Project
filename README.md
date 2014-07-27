@@ -71,7 +71,7 @@ Here "all" is reshaped by melt function where "Activity" and "Subject" are ids a
 ```r
 tidy_data <- dcast(all, Subject + Activity ~ variable, mean)
 ```
-Now based on "Subject" and "Activity" dcast function calculates the mean for all the measure variables ang generates a wide tidy data frame (called "tidy_data").
+Now based on "Subject" and "Activity" dcast function calculates the mean for all the measure variables and generates a wide tidy data frame (called "tidy_data").
 ```r
 write.table(tidy_data,file="tidy_data.txt")
 ```
